@@ -23,6 +23,8 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+
+
 // 快照
 configurations.all {
     // 检查远程依赖是否存在更新
@@ -31,4 +33,4 @@ configurations.all {
     resolutionStrategy.cacheDynamicVersionsFor 0, 'seconds'
 }
 
-//tasks.getByPath(":clearedittext:androidJavadocs").enabled = false
+tasks.getByPath(":clearedittext:androidJavadocs").enabled = false

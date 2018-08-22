@@ -8,7 +8,7 @@
     tools:context="lyxs916.com.arrtest.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <EditText
+    <com.yangyang.clearedittext.ClearEditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="带清楚的EditText"

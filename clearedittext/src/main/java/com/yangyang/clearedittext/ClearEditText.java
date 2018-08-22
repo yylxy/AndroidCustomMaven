@@ -18,7 +18,8 @@ import android.view.View.OnFocusChangeListener;
 
 
 /**
- * 清除EditText
+ * 说明：清除EditText
+ * 一束光线：1050189980 2018/8/22
  */
 @SuppressWarnings({"WeakerAccess", "unused"})
 public class ClearEditText extends AppCompatEditText implements TextWatcher, OnFocusChangeListener {
@@ -26,7 +27,7 @@ public class ClearEditText extends AppCompatEditText implements TextWatcher, OnF
     private TextWatcherCallback mTextWatcherCallback = null;
     private OnClearCallback mOnClearCallback;
     private boolean mIsFocused;
-    private int mSize = 30;
+    private int mSize = 50;
     
     private OnFocusChangeListener mOnFocusChangeListener;
     
