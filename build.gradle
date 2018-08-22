@@ -1,4 +1,3 @@
-
 buildscript {
     repositories {
         google()
@@ -13,11 +12,8 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url "https://gitee.com/lyxs916/arr-test/raw/master/snapshots"
-        }
-        //https://github.com/yylxy/AndroidCustomMaven/tree/master/MavenArr/snapshots/com/joyoung/smartrobot/custom-view-clearedittext/1.0.0-SNAPSHOT
 
+        //添加地址
         maven {
             url "https://github.com/yylxy/AndroidCustomMaven/raw/master/MavenArr/snapshots"
         }
@@ -27,8 +23,6 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-
 
 // 快照
 configurations.all {
