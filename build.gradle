@@ -1,17 +1,11 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
-        
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath 'com.android.tools.build:gradle:3.1.4'
     }
 }
 
@@ -19,17 +13,22 @@ allprojects {
     repositories {
         google()
         jcenter()
-
-
         maven {
             url "https://gitee.com/lyxs916/arr-test/raw/master/snapshots"
         }
     }
-
-
-
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+// 快照
+configurations.all {
+    // 检查远程依赖是否存在更新
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    // 采用动态版本声明的依赖缓存
+    resolutionStrategy.cacheDynamicVersionsFor 0, 'seconds'
+}
+
+//tasks.getByPath(":clearedittext:androidJavadocs").enabled = false

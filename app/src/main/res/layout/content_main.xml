@@ -8,41 +8,15 @@
     tools:context="lyxs916.com.arrtest.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:hint="带清楚的EditText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <!--<com.xkeshi.cashierdesk.flatbutton.FlatButton xmlns:app="http://schemas.android.com/apk/res-auto"-->
-        <!--android:id="@+id/flatButton"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_margin="5dp"-->
-        <!--android:padding="5dp"-->
-        <!--android:text="flatButton 测试"-->
-        <!--app:colorNormal="@color/colorAccent"-->
-        <!--app:colorNormalText="@color/colorPrimary"-->
-        <!--app:colorPressed="@color/colorPrimary"-->
-        <!--app:colorPressedText="@color/colorPrimary"-->
-        <!--app:cornerRadius="5dp"-->
-        <!--app:strokeColor="@color/colorAccent" />-->
-
-    <com.xkeshi.cashierdesk.flatbutton.FlatButton xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:padding="5dp"
-        android:text="flatButton 测试"
-        app:colorNormal="@color/colorAccent"
-        app:colorNormalText="@color/colorPrimary"
-        app:colorPressed="@color/colorPrimary"
-        app:colorPressedText="@color/colorPrimary"
-        app:cornerRadius="5dp"
-        app:strokeColor="@color/colorAccent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
 
 </android.support.constraint.ConstraintLayout>

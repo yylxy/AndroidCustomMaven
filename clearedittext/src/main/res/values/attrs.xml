@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 可清除的EditText -->
+    <declare-styleable name="ClearEditText">
+        <attr name="drawable_clear" format="reference" />
+        <attr name="drawable_size" format="dimension" />
+    </declare-styleable>
+</resources>
