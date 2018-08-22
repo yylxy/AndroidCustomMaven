@@ -27,5 +27,9 @@ dependencies {
 //    implementation 'com.xkeshi.core:flatbutton-library:1.0.0-SNAPSHOT'
 
     //直接引用
-    implementation project(':clearedittext')
+//    implementation project(':clearedittext')
+
+    ////https://github.com/yylxy/AndroidCustomMaven/tree/master/MavenArr/snapshots/com/joyoung/smartrobot/custom-view-clearedittext/1.0.0-SNAPSHOT
+    implementation 'com.joyoung.smartrobot:custom-view-clearedittext:1.0.0-SNAPSHOT'
+
 }

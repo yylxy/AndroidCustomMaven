@@ -16,6 +16,11 @@ allprojects {
         maven {
             url "https://gitee.com/lyxs916/arr-test/raw/master/snapshots"
         }
+        //https://github.com/yylxy/AndroidCustomMaven/tree/master/MavenArr/snapshots/com/joyoung/smartrobot/custom-view-clearedittext/1.0.0-SNAPSHOT
+
+        maven {
+            url "https://github.com/yylxy/AndroidCustomMaven/raw/master/MavenArr/snapshots"
+        }
     }
 }
 
